@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;0,700;0,900;0,1000;1,400&display=swap');
+
+* {
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    /* background-color: #badeff; */
+    background-color: white;
+}
+
+.navItem {
+    font-weight: 600 !important;
+}
+
+.content-logo {
+    background-image: url(../img/newlogo.png);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+    border-radius: 30px;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.nama-ukm {
+    font-weight: 900;
+    margin-left: 10px !important;
+}
+
+.nama-logo,
+.nama-lembaga {
+    color: white;
+    font-weight: bold;
+}
+
+.sec-tentang-kami,
+.sec-blog,
+.sec-hub-kami {
+    background-color: #f7f9fa;
+}
+
+.text-ttgkami {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.misi {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.visi {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.text-visi {
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.text-misi {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.boxs {
+    /* box-shadow: 0 4px 3px 2px rgba(0, 0, 0, 0.1); */
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.boxs:hover {
+    cursor: pointer;
+    background-color: rgba(27, 40, 58, 0.6);
+    transition: 0.7s;
+}
+
+.btnReadMore {
+    border-radius: 80px;
+
+}
+
+a {
+    text-decoration: none;
+}
